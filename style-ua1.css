@@ -1,0 +1,249 @@
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+body, html {
+	height: 100%;
+	font-family: cursive;background: #f5f8f9;overflow: visible;
+}
+
+.container
+{
+	width: 100%;max-width: 1200px;margin: 0 auto;
+}
+img
+{
+	max-width: 100%;vertical-align: baseline;margin-top: 0;
+}
+
+a{text-decoration: none;}
+.header_holder
+{
+	float: left;width: 100%;background-color: #5dba5d;
+}
+.header_holder .logo_box
+{
+	float: left;padding: 30px 0px 20px;
+}
+#nag
+{
+   float: right;padding: 30px 0px;
+}
+#nag ul
+{
+   float: right;list-style: none;
+}
+#nag ul li
+{
+   color:black;float: left;display:block;padding: 10px 15px;
+}
+#nag ul li a
+{
+   color: #FFF;font-size: 22px;
+}
+#nag ul li a:hover
+{
+   background-color:#ff0000;padding: 40px 0px 50px 0px;color: green;
+}
+.hr
+{
+	width: 100%;background-color: black;height: 5px;padding: 5px;
+}
+
+
+.k
+{
+   float: left;background-color: #ef4e28;width: 100%;height: 95px;text-align: left;
+}
+.k1
+{
+	color:#fff;padding: 1.4rem 0 0;text-align: center;
+}
+.ak2,.sk2
+{
+	color: #fff;font-size: .9rem;
+}
+.ak2{display: inline-block;}
+.sk2{padding:0 2.4rem;}
+
+.l{
+    background: #fff;
+    width: 83%;
+    padding: 2rem;
+    margin: -4.6rem auto 0;
+}
+.l1{
+    border-bottom: 1px solid rgba(0,0,0,.12);
+}
+.l2{
+    display: inline-block;
+    padding: 12px 24px;
+    text-align: center;
+    color: #999;
+    font-size: .9rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.l2.ll{
+    border-bottom: 2px solid #ef4e28;
+    color: #ef4e28;
+}
+.x{
+    position: relative;
+    padding-top: 2rem;
+}
+.x1{
+    width: 100%;
+    margin-bottom: 6rem;
+}
+.x2{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.x3{
+    border: 1px solid #deeaee;
+    width: 25rem;
+    position: relative;
+    border-radius: 4px;
+    height: 170px;
+    padding: 1rem;
+    margin: 0 2rem 2rem 0;
+}
+.x3 .y {
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 2.3rem;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: -11.5px;
+    top: -11.5px;
+    color: #ef4e28;
+    border: 1px solid #ef4e28;
+    cursor: pointer;
+    display: none;
+    background: #fff;
+}
+.x3 .y, .x3 .y i {
+    font-size: .9rem;
+}
+.y1, .y2 {
+    font-size: .9rem;
+}
+.y1 {
+    font-weight: 500;
+    color: #222;
+    margin-bottom: 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.y2 {
+    line-height: 18px;
+    color: #333;
+    word-break: break-all;
+}
+.m {
+    border: 1px dashed #deeaee;
+    width: 25rem;height: 170px;
+    position: relative;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    color: #999;
+    flex-direction: column;
+    margin: 0 2rem 2rem 0;
+    cursor: pointer;
+}
+.m .m1 {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    color: #999;
+    border: 1px solid #deeaee;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 1.5rem;margin-top: 30px;
+}
+ .m:hover
+ {
+ 	border-color: #ef4e28;
+ }
+
+.k1 {
+    color: #999;
+    margin-bottom: 1rem;
+}
+.k1, ._9Kf5 {
+    font-size: 1.4rem;
+}
+.k2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.k3 {
+    position: relative;
+    margin-bottom: 28px;
+    -ms-flex-preferred-size: 33.33%;
+    flex-basis: 33.33%;
+    padding-right: 3rem;
+}
+.k4 .k5 {
+    position: relative;
+    top: -2px;
+    color: #828282;
+    pointer-events: none;
+    width: 100%;
+    transition: .25s cubic-bezier(.25,.8,.25,1);
+    -webkit-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-transform: translate3d(0,28px,0) scale(1);
+    transform: translate3d(0,28px,0) scale(1);
+}
+
+.k4 input {
+    margin-top: 5px;
+    background: 0 0;
+    padding: 2px 30px 6px 2px;
+    border-width: 0 0 1px;
+    color: #222;
+    border-color: #e2e2e2;
+    line-height: 22px;
+    border-radius: 0;
+    width: 100%;
+    font-size: 14px;
+}
+.k6 {
+    position: absolute;
+    bottom: -24px;
+    right: 0;
+    font-size: 12px;
+    line-height: 24px;
+    padding-right: 3rem;
+}
+.k7 {
+    margin-top: 1.5rem;
+    -ms-flex-preferred-size: 33.33%;
+    flex-basis: 33.33%;
+}
+._2FoW, .k8, .t_m_ {
+    display: block;
+    font-size: 1.7rem;
+    color: #fff;
+    line-height: 5rem;
+    font-weight: 500;
+    text-align: center;
+    background-color: #ef4e28;
+    cursor: pointer;
+}
+.hidden
+{
+	display: none;
+}

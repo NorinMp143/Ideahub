@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)file:///C:/Users/admin/Desktop/github/github.html -->
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>Github</title>
+	<link rel="stylesheet" type="text/css" href="st-github.css">
+</head>
+<body>
+<header>
+  <span class="logo"><img src="http://www.ideashub.co.in/wp-content/themes/ideahub/images/logo.jpg"></span>
+	<nav>
+		<ul>
+			<li><a href="github.html">Home</a></li>
+			<li><a href="Commercial Services.html">Service</a></li>
+			<li><a href="file:///C:/Users/admin/Desktop/github/github.html#">Team</a></li>
+			<li><a href="UA.htm">Account</a></li>
+			<li><a href="Login.html">Login</a></li>
+			<li><a href="about.html">About Us</a></li>
+		</ul>
+	</nav>
+</header>
+<div class="container">
+	 <div class="slideshow-container">
+            
+            <div class="mySlides fade"> 
+               <img src="img1.jpg" style="width:1265px;height: 300px;">
+            </div>
+            <div class="mySlides fade"> 
+               <img src="img2.jpg" style="width:1265px;height: 300px;">
+            </div>
+            <div class="mySlides fade"> 
+               <img src="img3.jpg" style="width:1265px;height: 300px;">
+            </div>
+            <div class="mySlides fade"> 
+               <img src="img1.jpg" style="width:1265px;height: 300px;">
+            </div>
+            <div class="mySlides fade"> 
+                <img src="img2.jpg" style="width:1265px;height: 300px;">
+            </div>
+
+            <div class="mySlides fade">
+               <img src="img3.jpg" style="width:1265px;height: 300px;">
+            </div>
+        </div>
+</div>
+<div class="block">
+  <div class="block div1">
+    <div class="box b1">
+      <div class="b div1">COMMERCIAL PROJECT</div>
+      <div class="b div2"><img src="commerical.jpg" width="100%"></div>
+    </div>
+    <div class="box b2">
+      <div class="b div3"><img src="residental.jpg" width="100%"></div>
+      <div class="b div4">RESIDENTIAL PROJECT</div>
+    </div>
+    <div class="box b3">
+      <div class="b div5">INDUSTRIAL PROJECT</div>
+     <div class="b div6"><img src="industrial.jpg" width="100%"></div>
+    </div>
+    <div class="box b4">
+      <div class="b div7"><img src="edu.jpg" width="100%" height="200px;"></div>
+      <div class="b div8">EDUCATIONAL PROJECT</div>
+    </div> 
+  </div>
+  <div class="block div2">
+    <div class="box2"><img id="fl" src="http://www.ideashub.co.in/wp-content/themes/ideahub/images/heading.jpg">
+    </div>
+    <div class="box3"><p><img src="about.jpg" style="float: right;">M/s IDEAS HUB is one of the renowned firm engaged in offering architect facility for the clients. We are a registered firm with Registrar of firms & societies Punjab and also registered with Council of architecture New Delhi and Associate of Indian Institute of Architects Bombay. With our hard work and determination we have architecturally & structurally planned, designed and got executed number of such RCC frame structure prestigious and challenging buildings/Projects in India. Multistoried building, financial institutions, Educational Institutions, Hotel and other institutional Buildings and projects are the burning examples of their world class architecture. We are rendering...</p>
+      </div>
+      <div class="form">
+         <big>Quick Enquiry</big>  <br>
+         <div class="inline"><p>Name</p>
+         <input type="text" name="" placeholder="Name"> </div>
+         <div class="inline"><p>Phone</p>
+         <input type="text" name="" placeholder="Mobile No."></div> <br>
+         <div class="inline"><p>Zip Code</p>
+         <input type="text" name="" placeholder="Pincode"></div>
+         <div class="inline"><p>Email</p>
+         <input type="text" name="" placeholder="Email"> </div><br><br>
+         <div class="inline"><p>Service</p>
+         <select class="select">
+           <option value="-1">Select Service</option>
+           <option value="1">Commercial Project</option>
+           <option value="2">Industrial Project</option>
+           <option value="3">Residential Project</option>
+           <option value="4">Educational Project</option>
+           <option value="5">Interior Designing</option>
+         </select>      </div>
+         <div class="inline"><p>Message</p>
+         <textarea></textarea></div><br>
+       <div class="inline"><p>How Did You Hear About Us??</p>
+       <select class="select">
+           <option value="-1">Web Ad</option>
+           <option value="1">Web Search</option>
+           <option value="2">Email Campaign</option>
+           <option value="3">Others</option>
+         </select></div><br><br><br><br><br><br><br><br><br><br><br><br><br>
+         <div class="inline">
+           <button type="submit">Send</button>
+         </div>
+       </div>
+      </div>
+  </div>
+</div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    slides[slideIndex-1].style.display = "block";  
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+</body>
+</html>

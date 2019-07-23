@@ -1,0 +1,161 @@
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+body, html {
+	height: 100%;
+	font-family: cursive;background: #f5f8f9;overflow: visible;
+}
+
+.container
+{
+	width: 100%;max-width: 1200px;margin: 0 auto;
+}
+img
+{
+	max-width: 100%;vertical-align: baseline;margin-top: 0;
+}
+
+a{text-decoration: none;}
+.header_holder
+{
+	float: left;width: 100%;background-color: #5dba5d;
+}
+.header_holder .logo_box
+{
+	float: left;padding: 30px 0px 20px;
+}
+#nag
+{
+   float: right;padding: 30px 0px;
+}
+#nag ul
+{
+   float: right;list-style: none;
+}
+#nag ul li
+{
+   color:black;float: left;display:block;padding: 10px 15px;
+}
+#nag ul li a
+{
+   color: #FFF;font-size: 22px;
+}
+#nag ul li a:hover
+{
+   background-color:#ff0000;padding: 40px 0px 50px 0px;color: green;
+}
+#on
+{
+	background-color:#ff0000;padding: 40px 0px 50px 0px;
+}
+.hr
+{
+	width: 100%;background-color: black;height: 5px;padding: 5px;
+}
+.k
+{
+   float: left;background-color: #ef4e28;width: 100%;height: 95px;text-align: left;
+}
+.k1
+{
+	color:#fff;padding: 1.4rem 0 0;text-align: center;
+}
+.ak2,.sk2
+{
+	color: #fff;font-size: 1.2rem;
+}
+.ak2{display: inline-block;}
+.sk2{padding:0 2.4rem;}
+ 
+
+.l
+{
+    background: #fff;width: 83%;padding: 2rem;margin: -4.6rem auto 0;padding-top: 30px;
+}
+.l1{
+    border-bottom: 1px solid rgba(0,0,0,.12); 
+}
+.l2.ll
+{
+	    border-bottom: 2px solid #ef4e28;color: #ef4e28;
+}
+.l2{
+    display: inline-block;padding: 12px 24px;
+    text-align: center;
+    color: #999;
+    font-size: 90%;
+    font-weight: 500;
+    cursor: pointer;
+}
+.m
+{
+    position: relative;width: 80%;
+    padding-top: 2rem;
+}
+.m1{
+    position: absolute;
+    right: 0; 
+    color: #ef4e28;
+    cursor: pointer;text-align: center;
+}
+.m1,.m11{
+    font-size: 1.3rem;
+}
+.m11{
+    display: inline-block;
+    color: #999;
+    width: 10rem;
+    text-align: right;
+    padding-bottom: 1rem;
+}
+.m12{
+    display: inline-block;
+    color: #000;
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    font-weight: 500;
+}
+.m121{
+    text-transform: capitalize;
+}
+.m12.m122{
+    font-weight: 400;
+}
+.m12.m122 .m123 {
+    font-weight: 500;
+}
+.m2{
+    font-size: 12px;
+    color: #828282;
+    background: #f5f8f9;
+    border-radius: 4px;
+    border: 1px solid #deeaee;
+    padding: 10px;
+    margin-top: 2rem;
+}
+.m21 {
+    color: #ef4e28;
+    cursor: pointer;
+}
+.m2, .m21 {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

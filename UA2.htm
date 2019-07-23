@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Profile</title>
+	<link rel="stylesheet" type="text/css" href="style-ua2.css">
+	 
+</head>
+<body>
+    <header class="header_holder">
+		<div class="container">
+		<div class="logo_box">
+			<img src="images.jpg" height="50%" width="50%">
+		</div>
+
+	   <nav id="nag">
+		<ul>
+				<li><a href="github.html">Home</a></li>
+			<li><a href="Commercial Services.html">Service</a></li>
+			<li><a href="file:///C:/Users/admin/Desktop/github/github.html#">Team</a></li>
+			<li><a href="/hello/UA.htm">Account</a></li>
+			<li><a href="Login.html">Login</a></li>
+			<li><a href="about.html">About Us</a></li>
+		</ul>
+	   </nav>
+	   </div>
+	</header>
+	<div class="hr"></div>
+
+	<div class="k">
+	<div class="k1"><a href="#" class="ak2">Home<span class="sk2">/</span></a><span class="ak2">Profile</span></div>
+    </div>
+    <div class="l">
+	 		<div class="l1">
+	 			<div class="l2"><a href="UA.htm">Personal Info</a></div>
+	 			<div class="l2"><a href="UA1.htm">Address</a></div>
+	 			<div class="l2 ll"><a href="UA2.htm">Change Password</a></div>
+	 		</div>
+	 		<div>
+	 			<div class="m"><strong>Change Password</strong></div>
+	 			<form class="m1" action="next.asp"  onsubmit="return(validpass())">
+	 				<input type="Password" placeholder="Old Password" id="1">
+	 				<input type="Password" placeholder="New Password" id="2">
+	 				<input type="Password" placeholder="Confirm Password" id="3">
+	 				<button type="submit">Save</button>
+	 			</form>
+	 			<script>
+	 					function validpass()
+	 					{
+	 						a=document.getElementById('2').value
+							b=document.getElementById('3').value
+							c=document.getElementById('1').value
+							if(c=="")
+							{
+								alert("Oops! I think you forgot to enter your old Password");
+								document.getElementById('1').focus();
+								return false;
+							}
+							if(a=="")
+							{
+							alert("you have to enter a new Password");
+							document.getElementById('2').focus();
+							return false;
+							}
+							if(a!=b)
+							{
+								alert("Please enter Same Password");
+								document.getElementById('3').focus();
+								return false;
+							}
+							if(c==a)
+							{
+							alert("Oops! you entered old Password.Please try with new one");
+							document.getElementById('2').focus();
+							return false;
+							}
+							else
+							{
+								alert("your Password has been successfully changed")
+							}
+	 					}
+	 				</script>
+	 		</div>
+	 		
+</div>
+</body>
+</html>

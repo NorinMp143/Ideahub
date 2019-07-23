@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-IdeaHub</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/untitled.css">
+</head>
+
+<body>
+    <header>
+        <p> <i class="fa fa-lightbulb-o"></i>IdeaHub</p>
+    </header>
+    <div class="jumbotron">
+        <h1>Welcome to IdeaHub</h1>
+        <p></p>
+    </div>
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <input id="usr" class="form-control input-sm" type="text" required="" placeholder="Your Username here...">
+                <input id="psw" class="form-control input-ps" type="password" required="" placeholder="Your Password here...">
+                <button class="btn btn-default" type="button" onclick="login()">Login </button>
+            </div>
+        </form>
+    </div>
+    <script type="text/javascript">
+        function login(){
+            var usr = document.getElementById("usr").value;
+            var psw = document.getElementById("psw").value;
+            if(usr == 'abcd' && psw == '1234'){
+                window.open('github.html');
+            }
+            else
+                alert("Incorrent Username or Password");
+        }
+    </script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

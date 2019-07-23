@@ -1,0 +1,97 @@
+*
+{
+	margin:0;
+	padding: 0;
+}
+body
+{
+	width: 100%;
+	float: left;
+}
+a{text-decoration: none;}
+.logo
+{
+  width: 50%;float: left;
+}
+header
+{
+	width: 100%;
+	background-color:rgb(0,0,0);height: 85px;
+}
+nav
+{
+	text-align: right;font-size: 20px;font-family: tahoma;margin-right: 20px;
+}
+nav ul li
+{
+	display: inline;
+	  text-align:right; 
+}
+nav ul li a
+{
+   color: rgb(255,255,255);margin-left: 20px; line-height: 75px;
+}
+nav ul li a:hover
+{
+	color: red;transition:all ease .5s;background-color:#808080;padding-bottom: 6px;
+}
+.mySlides{display: none;}
+img {vertical-align:left;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;float: left;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+ 
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.about
+{
+  background-color: rgb(0,0,0);color: white;margin-top: 310px;text-align: center;font-family: "calibri";
+}
+pre
+{
+  font-family: "calibri";
+}
+.span{font-size: 30px;font-weight: bold;margin: 10px 100px 10px 0px;}

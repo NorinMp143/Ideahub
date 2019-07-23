@@ -1,0 +1,184 @@
+*
+{
+	margin:0;
+	padding: 0;
+}
+body
+{
+	width: 100%;
+	float: left;
+}
+a{text-decoration: none;}
+.logo
+{
+  width: 50%;float: left;
+}
+header
+{
+	width: 100%;
+	background-color:rgb(0,0,0);height: 85px;
+}
+nav
+{
+	text-align: right;font-size: 20px;font-family: tahoma;margin-right: 20px;
+}
+nav ul li
+{
+	display: inline;
+	  text-align:right; 
+}
+nav ul li a
+{
+   color: rgb(255,255,255);margin-left: 20px; line-height: 75px;
+}
+nav ul li a:hover
+{
+	color: red;transition:all ease .5s;background-color:#808080;padding-bottom: 6px;
+}
+.mySlides{display: none;}
+img {vertical-align:left;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;float: left;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+ 
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.about
+{
+  width: 100%;background:#5f5f5f;
+}
+ 
+
+.block
+{
+  width: 100%;background-color: rgb(0,0,0);display: inline-block;
+}
+.block.div1
+{
+  width: 40%; color: white; display: inline-block;
+}
+.block.div2
+{
+  width: 60%;display:block;float:right;
+}
+
+.box
+{
+  width: 100%;display: inline-block;height: 195px;
+}
+
+.box.b1
+{
+    width: 100%;display: inline-block;
+}
+.b{width: 50%;height: 200px; text-align: center; display: block;float: left;line-height: 180px;font-weight: bold;font-size: 20px;}
+
+.b.div1 
+{
+  background: #9BD157; 
+}
+.b.div4
+{
+  background: #FFE4C4; 
+}
+.b.div5 
+{
+  background: #F0F68C; 
+}
+.b.div8 
+{
+  background: #9BD157; 
+}
+.block.box2
+{
+  width: 100%;height: 50px;
+}
+#fl
+{
+  float: right;
+}
+.box3
+{
+  width: 100%;color: white;margin-top: 70px;
+}
+.box3 p
+{
+  margin-left: 30px;line-height: 50px;
+}
+
+.form
+{
+  color: white;
+  display:inline;
+}
+input
+{
+  width:280px;height: 30px; margin-left: 30px; float: left;
+}
+big
+{
+  font-size: 30px;font-weight: bold;
+}
+.form p
+{
+  margin-left: 30px;
+}
+.inline
+{
+  display: inline-block;float: left;margin-top: 20px;margin-left: 30px;
+}
+.select
+{
+  width:280px;height: 30px; margin-left: 30px; float: left;
+}
+textarea
+{
+  margin-left: 30px; width:280px;height: 50px;
+}
+ 
+ button
+ {
+  margin-left: 100px;padding: 5px 20px;background-color: orange;
+ }
